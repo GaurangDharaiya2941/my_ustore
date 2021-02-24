@@ -40,7 +40,7 @@ return [
     */
 
     'debug' => env('APP_DEBUG', false),
-
+    'encode_chars'=>'0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',
     /*
     |--------------------------------------------------------------------------
     | Application URL
@@ -81,6 +81,8 @@ return [
     */
 
     'locale' => 'en',
+    
+    'languages' =>  ['en','ar'],
 
     /*
     |--------------------------------------------------------------------------
